@@ -1,0 +1,61 @@
+/* import fonts and body styles */
+
+body {
+    font-family: 'Mulish', sans-serif;
+    padding: 0px 135px;
+    width: 1440px;
+    /* padding: 52px 130px; */
+}
+
+   /* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.tvl-name{
+    color: #131318;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+}
+
+.agnc-name {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menus{
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* banner styles */
+.banner{
+   background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+   background-repeat: no-repeat;
+   width: 100px;
+}
