@@ -132,8 +132,30 @@ padding-left: 1rem;
     border: none;
     cursor: pointer;
 }
- 
+/* main styles */
 
+/*  section 1 styles */
+.section1{
+    width:100%;
+    height:550px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    margin: 100px 0;
+    padding: 0;
+}
+.sec1-h2{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+padding-top: 0;
+}
+.sec1-p1{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
 
 
 
@@ -183,5 +205,10 @@ padding-left: 1rem;
     .bnr-input, .bnr-btn{
         width: 270px;
     }
-    
+    /* section1 styles */
+    .section1{
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 1.1rem;
+    }    
 }
