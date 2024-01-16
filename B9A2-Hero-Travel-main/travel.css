@@ -262,6 +262,7 @@ a {
 .section4 {
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
@@ -302,6 +303,7 @@ a {
     margin-top: 16px;
     margin-bottom: 5px;
 }
+
 /* .sec4-img{
     position: absolute;
 } */
@@ -316,17 +318,41 @@ a {
     font-size: 24px;
     font-weight: 400;
     padding-top: 0.5rem;
-    position:absolute;
+    position: absolute;
     z-index: 1;
     left: 73%;
     top: 60%;
 }
-.save{
+
+.save {
     font-size: 2rem;
     font-weight: 800;
 }
 
+/* footer styles */
 
+.footer {
+    margin: auto 0px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding-top: 110px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.foot-1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
 
 /* media q. for mobile phone (590px) */
@@ -393,11 +419,13 @@ a {
         padding: 1.1rem;
         height: fit-content;
         margin-bottom: 30px;
+        padding-right: 90px;
     }
 
     /* section 2 styles */
     .section2 {
         padding: auto 20px;
+        padding-right: 100px;
     }
 
     .sec2-h2 {
@@ -437,28 +465,38 @@ a {
     .cmn-sec3-div {
         width: 460px;
     }
-    .section4{
+
+    .section4 {
         flex-direction: column;
     }
-    .sec4-div1{
+
+    .sec4-div1 {
         width: 450px;
         margin: auto 20px;
     }
-    .sec4-inp, .sec4-btn{
+
+    .sec4-inp,
+    .sec4-btn {
         width: 100%;
     }
+
     /* .sec4-div2{
         width: 450px;
     } */
-    .sec4-img{
+    .sec4-img {
         width: 530px;
         margin: auto 20px;
     }
-    .sec4-save{
+
+    .sec4-save {
         width: 300px;
         height: 100px;
         top: 80%;
         left: 46%;
         margin-bottom: 20px;
+    }
+    footer{
+        
+        width: 100%;
     }
 }
