@@ -234,6 +234,78 @@ a {
     img6 img6 img6 img6 img6 img7 img7 img7 img7 img7 img7 img7 
     ;
 } */
+
+.maldive{
+    position: relative;
+}
+.img-name1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #FFF;
+    font-size: 30px;
+}
+.indo{
+    position: relative;
+}
+.img-name2{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    color: #FFF;
+    font-size: 30px;
+}
+.srilanka{
+    position: relative;
+}
+.img-name3{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #FFF;
+    font-size: 30px;
+}
+.n-amica{
+    position: relative;
+}
+.img-name4{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #FFF;
+    font-size: 30px;
+}
+.kashmir{
+    position: relative;
+}
+.img-name5{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #FFF;
+    font-size: 30px;
+}
+.bd{
+    position: relative;
+}
+.img-name6{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #FFF;
+    font-size: 30px;
+}
+.bdb{
+    position: relative;
+}
+.img-name7{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #FFF;
+    font-size: 30px;
+}
+
 /* section 3 styles */
 .section3 {
     width: 100%;
@@ -452,6 +524,10 @@ a {
         height: 250px;
         padding: 0;
     }
+    .img-name5, .img-name6{
+        left: 40%;
+    }
+
 
     /* section3 */
     .section3 {
